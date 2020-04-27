@@ -97,6 +97,10 @@ _The variables required in order for the module to be successfully called from t
 | **_version\_stages_** | _Specifies a list of staging labels that are attached to this version of the secret_ | _string_ | **_Optional_** | **_null_** |
 
 
+> **_NOTE_**_: If_ **_version\_stages_** _is configured, you must include the_ **_AWSCURRENT_** _staging label if this secret version is the only version or if the label is currently present on this secret version, otherwise Terraform will show a perpetual difference._
+
+
+
 ---
 
 ## _Outputs_
