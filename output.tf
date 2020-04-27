@@ -12,6 +12,6 @@ output "version_id" {
 
 
 output "secrets" {
-  value     = jsondecode(aws_secretsmanager_secret_version.secretsmanager_secret_version.secret_string)
+  value     = aws_secretsmanager_secret_version.secretsmanager_secret_version.secret_string
   sensitive = true
 }
