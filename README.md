@@ -3,7 +3,7 @@ _Terraform Module for_ **_AWS Secretsmanager Secret Version_**
 
 ---
 
-**_NOTE_**_: If the_ **_AWSCURRENT_** _staging label is present on this version during resource deletion, that label cannot be removed and will be skipped to prevent errors when fully deleting the secret. That label will leave this secret version active even after the resource is deleted from Terraform unless the secret itself is deleted. Move the_ **_AWSCURRENT_** _staging label before or after deleting this resource from Terraform to fully trigger version deprecation if necessary._
+> **_NOTE_**_: If the_ **_AWSCURRENT_** _staging label is present on this version during resource deletion, that label cannot be removed and will be skipped to prevent errors when fully deleting the secret. That label will leave this secret version active even after the resource is deleted from Terraform unless the secret itself is deleted. Move the_ **_AWSCURRENT_** _staging label before or after deleting this resource from Terraform to fully trigger version deprecation if necessary._
 
 
 <!--BEGIN STABILITY BANNER-->
@@ -13,7 +13,6 @@ _Terraform Module for_ **_AWS Secretsmanager Secret Version_**
 
 > **_This is a stable example. It should successfully build out of the box_**
 >
-> _This examples does is built on Construct Libraries marked "Stable" and does not have any infrastructure prerequisites to build._
 
 ---
 <!--END STABILITY BANNER-->
